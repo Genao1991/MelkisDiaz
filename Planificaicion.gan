@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Melkis Project" company="Melkis Diaz Bridal" webLink="http://" view-date="2018-07-13" view-index="0" gantt-divider-location="436" resource-divider-location="300" version="2.8.9" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Melkis Project" company="Melkis Diaz Bridal" webLink="http://" view-date="2018-09-01" view-index="0" gantt-divider-location="436" resource-divider-location="300" version="2.8.9" locale="es_ES">
     <description><![CDATA[Planificacion proyecto de desarrollo de Melkis DIaz
 ]]></description>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="257" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="80" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="95" order="2"/>
+        <field id="tpd3" name="Nombre" width="248" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="77" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="92" order="2"/>
         <timeline><![CDATA[3]]></timeline>
-        <option id="color.recent"><![CDATA[#cc33ff #ff9900 #cc00cc]]></option>
+        <option id="color.recent"><![CDATA[#0000ff #cc33ff #ffff00 #00ff00 #ff9900 #cc00cc]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Nombre" width="210" order="0"/>
@@ -130,6 +130,39 @@ Documentacion de componentes]]></notes>
         <task id="92" name="Definicion de Modulo de inventarios" color="#cc33ff" meeting="false" start="2018-08-15" duration="2" complete="50" thirdDate="2018-06-29" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Codigo Backend para inventarios]]></notes>
         </task>
+        <task id="121" name="Confifuracion del entorno" color="#000000" meeting="false" start="2018-08-17" duration="10" complete="100" thirdDate="2018-08-17" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Todas las pruiebas fueron satisfactorias
+]]></notes>
+            <task id="122" name="Seteo de SQL Server" color="#0000ff" meeting="false" start="2018-08-17" duration="3" complete="100" thirdDate="2018-08-07" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Establecimiento del DMS]]></notes>
+            </task>
+            <task id="123" name="Seteo de Vs Code y Node JS" color="#0000ff" meeting="false" start="2018-08-22" duration="3" complete="100" thirdDate="2018-08-22" thirdDate-constraint="0" expand="true"/>
+            <task id="126" name="Seteo Angular" color="#0000ff" meeting="false" start="2018-08-27" duration="2" complete="100" thirdDate="2018-08-07" thirdDate-constraint="0" expand="true"/>
+            <task id="157" name="Seteo Visual Studio 2017" color="#ff9900" meeting="false" start="2018-08-29" duration="2" complete="100" thirdDate="2018-08-14" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Usamos la nueva version de visual studio 2017 comunity version
+
+-Pendiente compra de licencia antes de implementar el proyecto ]]></notes>
+            </task>
+        </task>
+        <task id="160" name="Elaboracion contrato" color="#00ff00" meeting="false" start="2018-08-31" duration="2" complete="50" thirdDate="2018-08-14" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Adquirir datos generales de la empresa cliente 
+]]></notes>
+        </task>
+        <task id="176" name="Etapa 1 de desarrollo, Scaffolding" color="#cc33ff" meeting="false" start="2018-09-04" duration="5" complete="100" thirdDate="2018-08-21" thirdDate-constraint="0" expand="true"/>
+        <task id="197" name="Diseño de patron de interface" color="#0000ff" meeting="false" start="2018-09-06" duration="4" complete="100" thirdDate="2018-09-10" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Linea de diseño material design corregida]]></notes>
+        </task>
+        <task id="174" name="Analisis modulo Contabilidad fase 1" color="#ffff00" meeting="false" start="2018-09-11" duration="3" complete="100" thirdDate="2018-08-14" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Nos reunimos con la encargada de contabilidad para una primera fase de analisis del modulo administrativo en esta área, queda pendiente otra reunion para detalles de los registros contables y los procesos  ]]></notes>
+        </task>
+        <task id="210" name="Configurar hojas de estilo" color="#0000ff" meeting="false" start="2018-09-14" duration="3" complete="80" thirdDate="2018-08-28" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Llevar el modelo PSD a codigo]]></notes>
+        </task>
+        <task id="225" name="Desarrollo backend modular" color="#0000ff" meeting="false" start="2018-09-19" duration="5" complete="70" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Implementacion y Testeo operaciones CRUD 
+
+Ya las tablas se comunican con la bdd ]]></notes>
+        </task>
     </tasks>
     <resources>
         <resource id="0" name="Anthony Genao" function="Default:1" contacts="anthonygen91@gmail.com" phone="8295463109"/>
@@ -151,11 +184,25 @@ Documentacion de componentes]]></notes>
         <allocation task-id="49" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="87" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="92" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="157" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="174" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="197" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="33" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="42" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="49" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="87" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="122" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="123" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="121" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="126" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="157" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="174" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="176" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="210" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="225" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="42" resource-id="2" function="SoftwareDevelopment:10" responsible="false" load="100.0"/>
+        <allocation task-id="174" resource-id="2" function="SoftwareDevelopment:10" responsible="false" load="100.0"/>
+        <allocation task-id="160" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
