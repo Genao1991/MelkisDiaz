@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Melkis Project" company="Melkis Diaz Bridal" webLink="http://" view-date="2018-06-09" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.7" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Melkis Project" company="Melkis Diaz Bridal" webLink="http://" view-date="2018-07-19" view-index="0" gantt-divider-location="436" resource-divider-location="300" version="2.8.9" locale="es_ES">
     <description><![CDATA[Planificacion proyecto de desarrollo de Melkis DIaz
 ]]></description>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="167" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="65" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="64" order="2"/>
+        <field id="tpd3" name="Nombre" width="257" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="80" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="95" order="2"/>
         <timeline><![CDATA[3]]></timeline>
-        <option id="color.recent"><![CDATA[#ff9900 #cc33ff #cc00cc]]></option>
+        <option id="color.recent"><![CDATA[#cc33ff #ff9900 #cc00cc]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Nombre" width="210" order="0"/>
@@ -36,20 +36,99 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="3" name="Envio de requerimientos" color="#8cb6ce" meeting="false" start="2018-06-13" duration="2" complete="100" thirdDate="2018-06-20" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="33" name="Analisis planta fisica" color="#8cb6ce" meeting="false" start="2018-05-25" duration="13" complete="80" thirdDate="2018-05-28" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Informe Final
+
+El sistema actual es obsoleto 
+Se necesita una definicion clara de jerarquia y privilegios 
+Hay que reforzar la definicion de funciones 
+NO HAY UN SISTEMA DE INVENTARIOS EFICIENTE 
+El sistema actual usa el servidor On premises y OnActive Use 
+Hay que cambiar el hardware
+El sistema actual de manejo de las ordenes es mejorable]]></notes>
+        </task>
+        <task id="3" name="Envio de requerimientos" color="#8cb6ce" meeting="false" start="2018-06-13" duration="2" complete="100" thirdDate="2018-06-20" thirdDate-constraint="0" priority="2" expand="true">
+            <notes><![CDATA[Enviados los requerimientos
+
+[actualizacion]
+Tenemos retraso con la recepcion de los requerimientos por parte de los clientes
+Hubo cambios en los requerimientos (comision de 3000 pesos) 
+
+[actualizacion]
+Los requerimientos fueron recibidos]]></notes>
+        </task>
         <task id="5" name="Recepcion de requerimientos" color="#8cb6ce" meeting="false" start="2018-06-18" duration="1" complete="100" thirdDate="2018-06-07" thirdDate-constraint="0" priority="2" expand="true">
             <depend id="7" type="2" difference="0" hardness="Strong"/>
         </task>
         <task id="7" name="Analisis de requerimientos" color="#cc33ff" meeting="false" start="2018-06-19" duration="3" complete="90" thirdDate="2018-06-20" thirdDate-constraint="0" expand="true" cost-manual-value="100.0" cost-calculated="false">
+            <notes><![CDATA[Determinamos que el modulo de contabilidad por su conexion y alimentacion con la base de datos no puede ser modulable 
+
+Se hizo una determinacion de requerimientos generales y especificos para la modularizacion 
+
+Las operaciones Contables se manejaran via API 
+]]></notes>
             <depend id="9" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="9" name="Diagramacion y mapeo" color="#cc33ff" meeting="false" start="2018-06-22" duration="4" complete="90" thirdDate="2018-06-22" thirdDate-constraint="0" expand="true">
+        <task id="9" name="Diagramacion y mapeo" color="#cc33ff" meeting="false" start="2018-06-22" duration="5" complete="92" thirdDate="2018-06-22" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Elaboracion de diagaramas 
+
+Usado en visual Paradigm ]]></notes>
             <task id="14" name="Diagrama de Base de Datos" color="#cc33ff" meeting="false" start="2018-06-22" duration="1" complete="60" thirdDate="2018-06-22" thirdDate-constraint="0" expand="true"/>
             <task id="18" name="Diagrama de Componentes" color="#cc33ff" meeting="false" start="2018-06-25" duration="1" complete="100" thirdDate="2018-06-25" thirdDate-constraint="0" expand="true"/>
             <task id="24" name="Caso de Uso" color="#cc33ff" meeting="false" start="2018-06-26" duration="2" complete="100" thirdDate="2018-06-22" thirdDate-constraint="0" expand="true"/>
+            <task id="28" name="Diagrama de clases" color="#cc33ff" meeting="false" start="2018-06-28" duration="1" complete="100" thirdDate="2018-06-11" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="25" name="Reunion Yohanny" color="#ff9900" meeting="false" start="2018-09-14" duration="1" complete="100" thirdDate="2018-06-18" thirdDate-constraint="0" priority="2" expand="true">
-            <notes><![CDATA[Recopilar informacion acerca del modulo de contabilidad y ponerla al tanto de los avances ]]></notes>
+        <task id="39" name="Arquitectura" color="#cc33ff" meeting="false" start="2018-06-29" duration="10" complete="80" thirdDate="2018-06-19" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Establecimiento de conexion de componentes
+
+Visual Paradigm
+]]></notes>
+        </task>
+        <task id="42" name="Reunion para seleccion de tecnologias" color="#ff9900" meeting="false" start="2018-07-13" duration="2" complete="90" thirdDate="2018-07-05" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Establecimos que usaremos tecnologias independientes en contenedores, esto permitirá determinar ventajas oportunas tanto a nivel de frontend como de backend.
+
+Usaremos modelo API para ciertos modulos y nos basaremos en estructura MVC. 
+
+Lenguajes usados. 
+
+C# .net
+Javascript
+HTML/CSS
+
+Frameworks 
+
+ASP.NET
+NodeJS
+Angular
+
+Base de Datos
+SQL Server 
+
+Decidimos usar para conveniencia de los clientes servidor Cloud, tentativamente Azure
+]]></notes>
+        </task>
+        <task id="45" name="Seleccion de vistas" color="#cc33ff" meeting="false" start="2018-07-17" duration="1" complete="100" thirdDate="2018-06-29" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Segun los requerimientos de los clientes se hicieron pruebas con diferentes tipos de modelos de interfaces de usuario segun las necesidades. 
+
+Testeada ModernUI de microsoft 
+Testeada Material Design de google 
+Testeada Skeuomorphism de Apple
+Testeada Flat Design
+
+
+Seleccionada Material Design para conveniencia de los usuarios ]]></notes>
+        </task>
+        <task id="49" name="Diseño de las vistas" color="#cc33ff" meeting="false" start="2018-07-18" duration="10" complete="60" thirdDate="2018-06-27" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Enviada diseño nuevo de vista a Norman para parametros en formato PSD]]></notes>
+        </task>
+        <task id="87" name="Establecimiento de componentes" color="#ff9900" meeting="false" start="2018-08-01" duration="10" complete="30" thirdDate="2018-07-26" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Segregar los privilegios de usuario 
+
+Determinacion de componentes por interface
+Documentacion de componentes]]></notes>
+        </task>
+        <task id="92" name="Definicion de Modulo de inventarios" color="#cc33ff" meeting="false" start="2018-08-15" duration="2" complete="50" thirdDate="2018-06-29" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Codigo Backend para inventarios]]></notes>
         </task>
     </tasks>
     <resources>
@@ -64,8 +143,19 @@
         <allocation task-id="14" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="18" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="24" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="25" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="25" resource-id="2" function="SoftwareDevelopment:10" responsible="false" load="100.0"/>
+        <allocation task-id="28" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="39" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="45" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="49" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="87" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="92" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="42" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="87" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="42" resource-id="2" function="SoftwareDevelopment:10" responsible="false" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
