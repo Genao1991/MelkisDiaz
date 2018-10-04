@@ -1,12 +1,16 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?><project name="Melkis Project" company="Melkis Diaz Bridal" webLink="http://" view-date="2018-08-17" view-index="0" gantt-divider-location="436" resource-divider-location="300" version="2.8.7" locale="es_ES">
+=======
+<?xml version="1.0" encoding="UTF-8"?><project name="Melkis Project" company="Melkis Diaz Bridal" webLink="http://" view-date="2018-11-09" view-index="0" gantt-divider-location="436" resource-divider-location="300" version="2.8.9" locale="es">
+>>>>>>> 4775293fffee9f8f3e9afbecaabfc2cee1be9d29
     <description><![CDATA[Planificacion proyecto de desarrollo de Melkis DIaz
 ]]></description>
-    <view zooming-state="default:2" id="gantt-chart">
+    <view zooming-state="default:1" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="248" order="0"/>
         <field id="tpd4" name="Fecha de inicio" width="77" order="1"/>
         <field id="tpd5" name="Fecha de fin" width="92" order="2"/>
         <timeline><![CDATA[3]]></timeline>
-        <option id="color.recent"><![CDATA[#0000ff #cc33ff #ffff00 #00ff00 #ff9900 #cc00cc]]></option>
+        <option id="color.recent"><![CDATA[#009900 #999999 #33ffff #000099 #ff00cc #ffcc66 #990000 #ff0066 #00ff00 #cc33ff]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Nombre" width="210" order="0"/>
@@ -36,7 +40,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="33" name="Analisis planta fisica" color="#8cb6ce" meeting="false" start="2018-05-25" duration="13" complete="80" thirdDate="2018-05-28" thirdDate-constraint="0" expand="true">
+        <task id="33" name="Analisis planta fisica" color="#8cb6ce" meeting="false" start="2018-05-25" duration="13" complete="100" thirdDate="2018-05-28" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Informe Final
 
 El sistema actual es obsoleto 
@@ -121,13 +125,13 @@ Seleccionada Material Design para conveniencia de los usuarios ]]></notes>
         <task id="49" name="Diseño de las vistas" color="#cc33ff" meeting="false" start="2018-07-18" duration="10" complete="60" thirdDate="2018-06-27" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Enviada diseño nuevo de vista a Norman para parametros en formato PSD]]></notes>
         </task>
-        <task id="87" name="Establecimiento de componentes" color="#ff9900" meeting="false" start="2018-08-01" duration="10" complete="30" thirdDate="2018-07-26" thirdDate-constraint="0" expand="true">
+        <task id="87" name="Establecimiento de componentes" color="#ff9900" meeting="false" start="2018-08-01" duration="10" complete="80" thirdDate="2018-07-26" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Segregar los privilegios de usuario 
 
 Determinacion de componentes por interface
 Documentacion de componentes]]></notes>
         </task>
-        <task id="92" name="Definicion de Modulo de inventarios" color="#cc33ff" meeting="false" start="2018-08-15" duration="2" complete="50" thirdDate="2018-06-29" thirdDate-constraint="0" expand="true">
+        <task id="92" name="Definicion de Modulo de inventarios" color="#cc33ff" meeting="false" start="2018-08-15" duration="2" complete="100" thirdDate="2018-06-29" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Codigo Backend para inventarios]]></notes>
         </task>
         <task id="121" name="Confifuracion del entorno" color="#000000" meeting="false" start="2018-08-17" duration="10" complete="100" thirdDate="2018-08-17" thirdDate-constraint="0" expand="true">
@@ -155,7 +159,7 @@ Documentacion de componentes]]></notes>
         <task id="174" name="Analisis modulo Contabilidad fase 1" color="#ffff00" meeting="false" start="2018-09-11" duration="3" complete="100" thirdDate="2018-08-14" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Nos reunimos con la encargada de contabilidad para una primera fase de analisis del modulo administrativo en esta área, queda pendiente otra reunion para detalles de los registros contables y los procesos  ]]></notes>
         </task>
-        <task id="210" name="Configurar hojas de estilo" color="#0000ff" meeting="false" start="2018-09-14" duration="3" complete="80" thirdDate="2018-08-28" thirdDate-constraint="0" expand="true">
+        <task id="210" name="Configurar hojas de estilo" color="#0000ff" meeting="false" start="2018-09-14" duration="3" complete="100" thirdDate="2018-08-28" thirdDate-constraint="0" expand="true">
             <notes><![CDATA[Llevar el modelo PSD a codigo]]></notes>
         </task>
         <task id="225" name="Desarrollo backend modular" color="#0000ff" meeting="false" start="2018-09-19" duration="5" complete="70" thirdDate="2018-09-03" thirdDate-constraint="0" expand="true">
@@ -163,7 +167,236 @@ Documentacion de componentes]]></notes>
 
 Ya las tablas se comunican con la bdd ]]></notes>
         </task>
+<<<<<<< HEAD
         <task id="228" name="tarea_228" meeting="false" start="2018-08-17" duration="1" complete="0" expand="true"/>
+=======
+        <task id="226" name="Contabilidad" color="#ffff00" meeting="false" start="2018-09-26" duration="23" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[El modulo de contabilidad requiere la implementacion de varias APIS ya creadas para el manejo de los procesos contables 
+
+Debemos desarrollarlo como una API con su propia base de datos en comunicacion cloud con la aplicacion de la empresa]]></notes>
+            <task id="236" name="Base de datos de modulo contable" color="#ffff00" meeting="false" start="2018-09-26" duration="1" complete="0" thirdDate="2018-09-26" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Ya que contabilidad se va a tratar como un sistema aparte debe tener una base de datos propia]]></notes>
+                <depend id="247" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="247" name="CRUD Transacciones" color="#ffff00" meeting="false" start="2018-09-27" duration="6" complete="0" thirdDate="2018-09-27" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Requerimientos sustentados
+
+5.1. Registro de ventas por Día, Quincena, Mes, Trimestre, Semestre, Año
+5.2. Registro de egresos
+5.7. Resumen de Ordenes
+5.8. Cuadres
+5.13. Medios de pago de los gastos
+5.14. Inversiones
+5.17. Registro de proveedores
+
+]]></notes>
+            </task>
+            <task id="248" name="Facturador" color="#ffff00" meeting="false" start="2018-10-05" duration="2" complete="0" thirdDate="2018-10-03" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Requerimientos satisfechos
+
+
+5.3. Generar facturas con NCF o sin NCF
+5.9. Emisión de facturas
+
+]]></notes>
+                <depend id="273" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="273" name="Nominario" color="#ffff00" meeting="false" start="2018-10-09" duration="3" complete="0" thirdDate="2018-10-09" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Requisitos satisfechos
+
+5.5. Nomina
+5.15. Nomina fija, nomina por producción
+5.19. En la parte de la nómina hay que especificar sueldos brutos, deducciones y  sueldos netos
+]]></notes>
+                <depend id="284" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="284" name="Contabilidad Core" color="#ffff00" meeting="false" start="2018-10-12" duration="8" complete="0" thirdDate="2018-10-12" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[5.4. Balance
+5.6. Estados Financieros
+5.10. Balance actualizado de cuentas por pagar
+5.11. Balance actualizado de cuentas por cobrar
+5.12. Registro de notas de crédito
+5.16. Separación de contabilidad por proyectos que se estén ejecutando
+5.18. Obligaciones fiscales: impuestos
+5.20. Conciliación bancaria
+]]></notes>
+                <depend id="308" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="308" name="Terminacion" color="#ffff00" meeting="false" start="2018-10-24" duration="3" complete="0" thirdDate="2018-10-24" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="309" name="Inventario" color="#cc33ff" meeting="false" start="2018-10-29" duration="2" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+            <task id="342" name="Creacion de tablas para el inventario" color="#cc33ff" meeting="false" start="2018-10-29" duration="1" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[7.1. Código de la pieza
+7.2. Estatus de la pieza
+7.2.1.Disponible
+7.2.2.No Disponible
+7.2.3.Reservado
+7.2.4.En Alteración
+7.2.5.En Terminación
+7.2.6.Retrasado
+7.2.7.Separado De Inventario
+7.3. Agregar a Oferta
+]]></notes>
+            </task>
+            <task id="358" name="Preparar API para el inventario: 2 horas" color="#cc33ff" meeting="false" start="2018-10-29" duration="1" complete="0" thirdDate="2018-10-29" thirdDate-constraint="0" expand="true">
+                <depend id="375" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="375" name="Desarrollo y prueba de la vista finalizada y funcional" color="#cc33ff" meeting="false" start="2018-10-30" duration="1" complete="0" thirdDate="2018-10-30" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="401" name="Empleados" color="#00ff00" meeting="false" start="2018-10-31" duration="2" complete="0" thirdDate="2018-09-05" thirdDate-constraint="0" expand="true">
+            <task id="467" name="Crear tablas para los empleados" color="#00ff00" meeting="false" start="2018-10-31" duration="1" complete="0" thirdDate="2018-10-31" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Requerimientos satisfechos 
+
+8.1. Datos empleado
+8.2. Cargo
+8.3. Salario
+8.4. Estado
+8.4.1.Activo
+8.4.2.Licencia (Cantidad de licencias?)
+8.4.3.Vacaciones (Siguiente fecha o listado?)
+8.4.4.Retirado (Parte del estado?)
+8.5. comisiones
+]]></notes>
+            </task>
+            <task id="469" name="Crear API para el manejo de los empleados" color="#00ff00" meeting="false" start="2018-10-31" duration="2" complete="0" thirdDate="2018-10-31" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="539" name="Clientes" color="#ff0066" meeting="false" start="2018-11-02" duration="2" complete="0" thirdDate="2018-06-11" thirdDate-constraint="0" expand="true">
+            <task id="543" name="Crear la tabla de clientes" color="#ff0066" meeting="false" start="2018-11-02" duration="1" complete="0" thirdDate="2018-11-02" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Requisitos Satisfechos
+
+9.1. Datos cliente
+9.2. Historial cliente (Historial de que?)
+9.3. Categoría cliente
+9.3.1.Regular
+9.3.2.Frecuente
+9.3.3.Privilegiado (Son estados todos? tabla de estados del cliente?)
+]]></notes>
+            </task>
+            <task id="559" name="Preparar API para cliente" color="#ff0066" meeting="false" start="2018-11-02" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <depend id="564" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="564" name="Desarrollo y pruebas para vista finalizada y funcional" color="#ff0066" meeting="false" start="2018-11-05" duration="1" complete="0" thirdDate="2018-10-24" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="565" name="Ordenes" color="#990000" meeting="false" start="2018-11-06" duration="4" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+            <task id="578" name="Crear las tablas para orden y las relacionales" color="#990000" meeting="false" start="2018-11-06" duration="1" complete="0" thirdDate="2018-11-06" thirdDate-constraint="0" expand="true">
+                <depend id="600" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="600" name="Preparar API para la orden" color="#990000" meeting="false" start="2018-11-07" duration="1" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Requisitos Satisfechos 
+
+10.1. Fecha de reservación
+10.2. Fecha de recepción
+10.3. Estatus
+10.3.1. Pendiente
+10.3.2. Entregada
+10.3.3. En circulación
+10.3.4. Retrasada
+10.3.5. Cancelada
+10.4. Piezas
+10.5. Descuento
+10.6. Precio Asignado
+10.7. Precio de venta
+10.8. Oferta aplicada
+]]></notes>
+                <depend id="601" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="601" name="Desarrollo y pruebas para la vista finalizada y funcional" color="#990000" meeting="false" start="2018-11-08" duration="2" complete="0" thirdDate="2018-10-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="607" name="Ventas" color="#ffcc66" meeting="false" start="2018-11-12" duration="1" complete="0" thirdDate="2018-11-12" thirdDate-constraint="0" expand="true">
+            <task id="609" name="Crear las tablas necesarias para ventas" color="#ffcc66" meeting="false" start="2018-11-12" duration="1" complete="0" thirdDate="2018-11-12" thirdDate-constraint="0" expand="true"/>
+            <task id="632" name="Preparar API para ventas" color="#ffcc66" meeting="false" start="2018-11-12" duration="1" complete="0" thirdDate="2018-11-12" thirdDate-constraint="0" expand="true"/>
+            <task id="645" name="Desarrollar y probar vista funcional para realizar ventas" color="#ffcc66" meeting="false" start="2018-11-12" duration="1" complete="0" thirdDate="2018-11-12" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Requisitos Satisfechos
+
+3.1. Crear cotización
+3.2. Consulta de Inventario
+3.3. Consulta de clientes
+3.4. Consulta de Ordenes
+]]></notes>
+            </task>
+        </task>
+        <task id="652" name="Caja" color="#ff00cc" meeting="false" start="2018-11-13" duration="2" complete="0" thirdDate="2018-11-13" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Requisitos Sustentados
+
+4.1. Crear Orden
+4.2. Crear nuevo cliente
+4.3. Consultar Orden
+4.4. Cerrar Orden (ciclo completo)
+4.5. Emisión de facturas
+4.6. Depósitos reembolsables 
+]]></notes>
+            <task id="662" name="API que puede consumir los otros y preparar la factura" color="#ff00cc" meeting="false" start="2018-11-13" duration="1" complete="0" thirdDate="2018-11-02" thirdDate-constraint="0" expand="true">
+                <depend id="671" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="671" name="Desarrollar y probar la vista completa y funcional" color="#ff00cc" meeting="false" start="2018-11-14" duration="1" complete="0" thirdDate="2018-11-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="681" name="Taller" color="#000099" meeting="false" start="2018-11-15" duration="3" complete="0" thirdDate="2018-11-15" thirdDate-constraint="0" expand="true">
+            <task id="693" name="Hacer las tablas" color="#000099" meeting="false" start="2018-11-15" duration="1" complete="0" thirdDate="2018-11-05" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Requerimientos sustentados
+
+
+
+6. Taller de confección
+6.1. Registro de los alteradores con códigos personalizados
+6.2. Orden de Alteración
+6.3. Separación de alteraciones internas y externas
+6.4. Confección en alquiler
+6.5. Terminación
+6.6. Confeccionistas
+6.7. Pase a disponibilidad
+6.8. Creación de escala de costo por alteración que vaya desde 100 hasta 1000.
+6.9. Registro de alteraciones en los detalles de la orden.
+]]></notes>
+            </task>
+            <task id="704" name="Hacer el API" color="#000099" meeting="false" start="2018-11-15" duration="2" complete="0" thirdDate="2018-11-15" thirdDate-constraint="0" expand="true">
+                <depend id="715" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="715" name="Desarrollar y preparar la vista" color="#000099" meeting="false" start="2018-11-19" duration="1" complete="0" thirdDate="2018-11-16" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="729" name="Ofertas" color="#33ffff" meeting="false" start="2018-11-20" duration="2" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true">
+            <task id="755" name="Preparar tabla y logica para las ofertas" color="#33ffff" meeting="false" start="2018-11-20" duration="1" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Requerimientos Satisfechos 
+
+11. Ofertas
+11.1. Descripcion
+11.2. Fecha
+]]></notes>
+            </task>
+            <task id="757" name="Preparar API para las ofertas" color="#33ffff" meeting="false" start="2018-11-20" duration="1" complete="0" thirdDate="2018-11-19" thirdDate-constraint="0" expand="true">
+                <depend id="772" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="772" name="Agregar logica de oferta a las ventas" color="#33ffff" meeting="false" start="2018-11-21" duration="1" complete="0" thirdDate="2018-11-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="787" name="Gerencia de Tienda" color="#009900" meeting="false" start="2018-11-21" duration="3" complete="0" thirdDate="2018-11-21" thirdDate-constraint="0" expand="true">
+            <task id="799" name="Agregar logica de oferta a las ventas" color="#009900" meeting="false" start="2018-11-21" duration="1" complete="0" thirdDate="2018-11-21" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[
+]]></notes>
+                <depend id="815" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="815" name="Preparar API" color="#009900" meeting="false" start="2018-11-22" duration="1" complete="0" thirdDate="2018-11-22" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Requisitos Sustentados
+
+2.1. Aprobación de permisos especiales
+2.1.1.Descuentos especiales
+2.2. Solicitudes a Gerencia
+2.2.1.Emisión de bonos y tarjetas de regalo
+2.2.2.Cambios en nomina
+2.2.3.Cambios en Datos de ordenes
+2.2.4.Cambios en Inventario
+2.3. Operaciones de Ventas
+2.4. Operaciones de Caja
+]]></notes>
+                <depend id="864" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="864" name="Desarrollar y probar vistas" color="#009900" meeting="false" start="2018-11-23" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="832" name="Gerencia General" color="#999999" meeting="false" start="2018-11-26" duration="2" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true">
+            <task id="846" name="Crear API que acceda a las tablas ya hechas y permita las operaciones" color="#999999" meeting="false" start="2018-11-26" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true">
+                <depend id="847" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="847" name="Desarrollar y probar la(s) vistas para las operaciones" color="#999999" meeting="false" start="2018-11-27" duration="1" complete="0" thirdDate="2018-11-26" thirdDate-constraint="0" expand="true"/>
+        </task>
+>>>>>>> 4775293fffee9f8f3e9afbecaabfc2cee1be9d29
     </tasks>
     <resources>
         <resource id="0" name="Anthony Genao" function="Default:1" contacts="anthonygen91@gmail.com" phone="8295463109"/>
@@ -188,6 +421,27 @@ Ya las tablas se comunican con la bdd ]]></notes>
         <allocation task-id="157" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="174" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="197" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="226" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="247" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="273" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="284" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="308" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="309" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="342" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="358" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="401" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="467" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="469" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="543" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="607" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="609" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="632" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="681" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="693" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="755" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="757" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="772" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="799" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="33" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="42" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
         <allocation task-id="49" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
@@ -201,6 +455,32 @@ Ya las tablas se comunican con la bdd ]]></notes>
         <allocation task-id="176" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="210" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="225" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="226" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="247" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="248" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="273" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="284" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="308" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="309" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="342" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="358" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="375" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="401" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="467" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="469" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="543" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="559" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="564" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="578" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="601" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="607" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="632" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="681" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="693" resource-id="1" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="755" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="757" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="772" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="799" resource-id="1" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
         <allocation task-id="42" resource-id="2" function="SoftwareDevelopment:10" responsible="false" load="100.0"/>
         <allocation task-id="174" resource-id="2" function="SoftwareDevelopment:10" responsible="false" load="100.0"/>
         <allocation task-id="160" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
